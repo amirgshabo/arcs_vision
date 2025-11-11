@@ -1,0 +1,11 @@
+Everyone on the Vision Team can run the dev container at home using:
+
+docker run -it --rm --name arcs_dev ^
+  -v C:\ARCS_Vision\ros2_jazzy_ws:/ros2_ws ^
+  arcs_jazzy_dev bash
+
+
+Inside:
+
+source /opt/ros/jazzy/setup.bash
+cd /ros2_ws/src
